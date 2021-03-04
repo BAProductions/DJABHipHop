@@ -1,5 +1,5 @@
 $(document).ready(function(){
- $('#progressBar').progressbar({
+ $('#loadingsScreen').progressbar({
              value: 1
          });
 });
@@ -7,8 +7,14 @@ var statusTracker;
 var percentage = 0;
 
 function checkStatus() {
-    percentage = percentage + 5;
-    $('#progressBar').val(percentage);
+	percentage = percentage + 5;
+    
+	$('#loadingsScreen #progressBar').val(percentage);
+	$('#loadingsScreen span').text(percentage + "%");
+	$('#loadingsScreen span').animate({
+        'left': percentage + "%"
+    }, 0);
+	
     if (percentage == 100) stop();
 }
 function startProgress(){
@@ -16,9 +22,9 @@ function startProgress(){
 }
 
 function stop() {
-	$('#progressBar').animate({
+	$('#loadingsScreen').animate({
         'opacity': "0%"
-    }, 200);
+    }, 200).delay(400).css({'display': "none"});
 	
 	$('#fa-icons').animate({
         'opacity': "100%"

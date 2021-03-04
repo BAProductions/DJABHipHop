@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="user-scalable=no, initial-scale = 1.0,maximum-scale = 0.8,width=device-width" />
 <title>DJABHipHop Link Tree</title>
+
 <!-- Add jquery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="progress_bar.js"></script>
@@ -14,8 +16,11 @@
 </head>
 
 <body>
-<progress id="progressBar" max="100" value="0"></progress>
-<div id="fa-icons"> 
+<div id="loadingsScreen" class="screen">
+	<div id="loadingText">
+	<progress id="progressBar" max="100" value="0"></progress><span>0%</span></div>
+</div>
+<div id="fa-icons" class="screen"> 
 <a href="https://www.facebook.com/DJABHipHop1/" title="FaceBook" class="fa fa-facebook"> <strong class="fa-lable">aceBook</strong> </a> 
 <a href=" https://twitter.com/DJABHipHop" title="Twitter" class="fa fa-twitter"> <strong class="fa-lable">Twitter</strong> </a> 
 <a href="https://soundcloud.com/baproduction/" title="SoundCloud" class="fa fa-soundcloud"> <strong class="fa-lable">SoundCloud</strong> </a> 
