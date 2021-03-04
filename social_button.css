@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+   margin: 0;  
+   padding: 0;  
+   border: 0;  
+   font-size: 100%;  
+   font: inherit;  
+   vertical-align: baseline; 
+}
+body {
+	background: rgb(22,24,47);
+	cursor: url("mouse.svg") 16 16, pointer;
+}
+#fa-icons {
+    width: 50%;
+    height: auto;
+    text-align: center;
+	margin: 0px auto;
+    background: rgb(22,24,47);
+    background: -moz-linear-gradient(0deg, rgba(22,24,47,1) 0%, rgba(54,54,153,1) 35%, rgba(65,176,199,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(22,24,47,1) 0%, rgba(54,54,153,1) 35%, rgba(65,176,199,1) 100%);
+    background: linear-gradient(0deg, rgba(22,24,47,1) 0%, rgba(54,54,153,1) 35%, rgba(65,176,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#16182f",endColorstr="#41b0c7",GradientType=1);
+	border: solid white 1px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0%;
+}
+.fa {
+	padding: 20px 40px;
+	font-size: 27px;
+    width: 75%;
+	text-decoration: none;
+	margin: 2% 0px;
+	border-radius: 50px;
+    border: solid white 1px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	position:relative;
+	top:10px;
+	opacity: 75%;
+	cursor: url("mouse.svg") 16 16, pointer;
+}
+.fa .fa-lable {
+    margin-left: 5px;
+}
+.fa-facebook .fa-lable {
+    margin-left: 0px;
+}
+/*.fa:hover {
+	opacity: 0.7;
+}*/
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
+}
+.fa-android {
+	background: #f59714;
+	color: white;
+}
+.fa-soundcloud {
+	background: #ff5500;
+	color: white;
+}
+.fa-github {
+	background: #000000;
+	color: white;
+}
+.fa-deviantart {
+	background: #05CC46;
+	color: white;
+}
+
+#progressBar{
+	height: 20px;
+	width: 100%;
+	background: #ebebeb;
+	border: 1px solid black;
+	border-radius: 10px;
+	appearance:none;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	background: url(file:///Macintosh%20HD/Users/BAproduction/GitHub/DJABHipHop/progress.svg) center no-repeat;
+}
