@@ -1,62 +1,75 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=no, initial-scale = 1.0,maximum-scale = 0.8,width=device-width" />
-<title>DJABHipHop Link Tree</title>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale = 1.0,maximum-scale = 0.8,width=device-width" />
+  <title>DJABHipHop Link Tree</title>
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <link rel="mask-icon" href="favicon/favicon-32x32.svg">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!-- Add jquery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="ui_fix.js"></script>
+  
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="effect.css">
+  <link rel="stylesheet" href="resize.css">
+  <link rel="stylesheet" href="social_button.css">
+  </head>
 
-<!-- Add jquery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="progress_bar.js"></script>
-<script src="social_button_animation.js"></script>
-
-<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<link rel="shortcut icon" href="favicon/favicon.ico">
-<link rel="mask-icon" href="favicon/favicon-32x32.svg">
-<link rel="manifest" href="favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="social_button.css">
-</head>
-
-<body>
-<div id="loadingsScreen" class="screen">
-	<div id="loadingText">
-	<progress id="progressBar" max="100" value="0"></progress><span>0%</span></div>
-</div>
-<div id="fa-icons" class="screen"> 
-<a href="https://www.facebook.com/DJABHipHop1/" title="FaceBook" class="fa fa-facebook"> <strong class="fa-lable">aceBook</strong> </a> 
-<a href=" https://twitter.com/DJABHipHop" title="Twitter" class="fa fa-twitter"> <strong class="fa-lable">Twitter</strong> </a> 
-<a href="https://soundcloud.com/baproduction/" title="SoundCloud" class="fa fa-soundcloud"> <strong class="fa-lable">SoundCloud</strong> </a> 
-<a href="https://www.youtube.com/user/DjAbhiphop" title="YouTube" class="fa fa-youtube"> <strong class="fa-lable">YouTube</strong> </a> 
-<a href="https://www.pinterest.com/djabhiphop/" title="Pinterest" class="fa fa-pinterest"> <strong class="fa-lable">Pinterest</strong> </a>
-<a href="https://github.com/BAProductions" title="BAProductions" class="fa fa-github"> <strong class="fa-lable">BAProductions</strong> </a>
-<a href="https://github.com/LightningFastRom" title="LightningFastRom" class="fa fa-github"> <strong class="fa-lable">LightningFastRom</strong> </a>
-<a href="https://github.com/LightningFastDevices" title="LightningFastDevices" class="fa fa-github" id="#7"> <strong class="fa-lable">LightningFastDevices</strong> </a>
-<a href="https://github.com/milletwifi" title="milletwifi" class="fa fa-github"> <strong class="fa-lable">milletwifi</strong> </a>
-<a href="https://github.com/matissewifi" title="matissewifi" class="fa fa-github"> <strong class="fa-lable">matissewifi</strong> </a>
-<a href="https://github.com/Render-Studio" title="Render-Studio" class="fa fa-github"> <strong class="fa-lable">Render-Studio</strong> </a>
-<a href="https://github.com/MC-OS" title="MC-OS" class="fa fa-github"> <strong class="fa-lable">MC-OS</strong> </a>
-<a href="https://github.com/S3NEO" title="S3NEO" class="fa fa-github"> <strong class="fa-lable">S3NEO</strong> </a>
-<a href=" https://www.deviantart.com/djabhiphop" title="DeviantArt" class="fa fa-deviantart"> <strong class="fa-lable">DeviantArt</strong> </a>
-<a href=" https://forum.xda-developers.com/member.php?u=8771630" title="XDA" class="fa fa-android"> <strong class="fa-lable">XDA</strong> </a>
-</div>
-</body>
+  <body>
+   <div id="fa-wrapper" class="screen"> 
+     <div class="fa-bio-wrapper"> 
+       <img src="images/DJ-Full-Cover.jpg" width="128px" height="128px" class="fa-logo"/> 
+       <span class="fa-name">
+        DJABHopHop Productions
+       </span>
+       <blockquote class="fa-bio">
+       Im a DJ/Producer who goes by the name DJABHopHop Productions, Programmer, Graphic Designer, Web Developer & The owner of BAProduction record, I primarily produce Hip Hop, Pop Hip Hop Fusion, Pop Trap Fusion, Trap, Latin Trap, Pop, Latin Pop & Synth Pop & R&B For info on Pricing or Releasing you’r music on my label email me at the link first below. 
+       </blockquote>
+      </div>
+      <div class="fa-icons"> 
+        <a href="mailto:djabhiphop-DJABHipHop@yahoo.com" title="Caonact Me" class="fa fa-envelope fa-envelope-open"><strong class="fa-lable">Caonact Me</strong> </a> 
+        <a href="https://www.facebook.com/DJABHipHop1/" title="FaceBook" class="fa fa-facebook"><strong class="fa-lable">aceBook</strong> </a>
+        <a href="https://www.instagram.com/djabhiphop//" title="Instagram" class="fa fa-instagram"><strong class="fa-lable">Instagram</strong> </a>
+        <a href="https://twitter.com/DJABHipHop" title="Twitter" class="fa fa-twitter"><strong class="fa-lable">Twitter</strong> </a>
+        <a href="https://www.tiktok.com/@djabhiphop" title="TikTok" class="fa fa-music"><strong class="fa-lable">TikTok</strong> </a>
+        <a href="https://www.pinterest.com/djabhiphop/" title="Pinterest" class="fa fa-pinterest"><strong class="fa-lable">Pinterest</strong> </a>
+        <a href="https://www.youtube.com/user/DjAbhiphop" title="YouTube" class="fa fa-youtube"><strong class="fa-lable">YouTube</strong> </a>
+        <a href="https://soundcloud.com/baproduction/" title="SoundCloud" class="fa fa-soundcloud"><strong class="fa-lable">SoundCloud</strong> </a>
+        <a href="https://github.com/BAProductions" title="BAProductions" class="fa fa-github"><strong class="fa-lable">BAProductions</strong> </a>
+        <a href="https://github.com/LightningFastRom" title="LightningFastRom" class="fa fa-github"><strong class="fa-lable">LFR</strong></a>
+        <a href="https://github.com/LOSSG-8916" title="LOSSG-8916" class="fa fa-github"><strong class="fa-lable">LOSSG-8916</strong> </a>
+        <a href="https://github.com/S3NEO" title="S3NEO" class="fa fa-github"><strong class="fa-lable">S3NEO</strong> </a>
+        <a href="https://github.com/MC-OS" title="eOS Apps With My Own Touches" class="fa fa-github"><strong class="fa-lable">MC-OS</strong> </a>
+        <a href="https://github.com/Render-Studio" title="Render-Studio" class="fa fa-github"><strong class="fa-lable">Render-Studio</strong> </a>
+        <a href="https://github.com/LightningFastDevices" title="LightningFastDevices" class="fa fa-github"><strong class="fa-lable">LFS</strong></a>
+        <a href="https://github.com/milletwifi" title="milletwifi" class="fa fa-github"><strong class="fa-lable">milletwifi</strong> </a>
+        <a href="https://github.com/matissewifi" title="matissewifi" class="fa fa-github"><strong class="fa-lable">matissewifi</strong> </a>
+        <a href=" https://www.deviantart.com/djabhiphop" title="DeviantArt" class="fa fa-deviantart"><strong class="fa-lable">DeviantArt</strong> </a>
+        <a href=" https://forum.xda-developers.com/member.php?u=8771630" title="XDA" class="fa  fa-android"><strong class="fa-lable">XDA</strong> </a> 
+      </div>
+     </div>
+  </body>
 </html>

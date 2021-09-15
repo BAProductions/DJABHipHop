@@ -1,0 +1,33 @@
+.none {
+  backdrop-filter: none;
+}
+.grayscale {
+  backdrop-filter: grayscale(1);  
+}
+.brightness {
+  backdrop-filter: brightness(1.5);  
+}
+.blur {
+  backdrop-filter: blur(10px); /* Supported in Chrome 76 */
+}
+.contrast {
+  backdrop-filter: contrast(.8);  
+}
+.drop-shadow {
+  backdrop-filter: drop-shadow(4px 4px 10px blue);  
+}
+.invert {
+  backdrop-filter: invert(.7);
+}
+.opacity {
+  backdrop-filter: opacity(.4);
+}
+.sepia {
+  backdrop-filter: sepia(.4);
+}
+.saturate {
+  backdrop-filter: saturate(1.8);
+}
+.hue-rotate {
+  backdrop-filter: hue-rotate(120deg);
+}
