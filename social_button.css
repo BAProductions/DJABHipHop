@@ -1,11 +1,11 @@
 .screen {
-	width: 50%;
+	width: calc(100% - 200px);
 	height: 100%;
 }
 #fa-wrapper {
 	background: rgba(17, 17, 17, 100%);
 	display: block;
-	position: relative; /*Can also be `fixed`*/
+	position: relative;
 	margin: auto;
 	text-align: center;
 }
@@ -57,7 +57,7 @@
 	border-radius: 1px;
 	border: solid white 1px;
 	position: relative;
-	width: 75%;
+    width: calc(100% - 175px);
 	height: 25px;
 	top: 10px;
 	opacity: 75%;
