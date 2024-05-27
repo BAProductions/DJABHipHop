@@ -3,7 +3,7 @@
 	height: 100%;
 }
 #fa-wrapper {
-	background: rgba(17, 17, 17, 100%) url("images/noise.png") !important;
+	background: rgba(17, 17, 17, 100%);
 	display: block;
 	position: relative; /*Can also be `fixed`*/
 	margin: auto;
@@ -17,9 +17,8 @@
 }
 	
 .fa-logo {
-	display: block;
+	display: inline-block;
 	margin: auto;
-	border-radius: 100px;
 	border: solid white 1px;
 	float: left;
 	margin:5px 45px;
