@@ -86,16 +86,20 @@
 .fa-envelope {
 	background: #30396d;
 }
-.fa-facebook .fa-lable {
+.fa-facebook .fa-lable,
+.fa-facebook-f .fa-lable {
 	margin-left: 0px;
 }
 .fa-instagram {
 	background: #125688;
 }
-.fa-facebook {
+.fa-facebook,
+.fa-facebook-f {
 	background: #3B5998;
 }
-.fa-twitter {
+.fa-twitter,
+.fa-bluesky,
+.fa-x-twitter {
 	background: #55ACEE;
 }
 .fa-youtube {
@@ -106,7 +110,8 @@
 	color: #55ACEE;
 	text-shadow: 2px 2px #bb0000;
 }
-.fa-pinterest {
+.fa-pinterest,
+.fa-pinterest-p {
 	background: #cb2027;
 }
 .fa-soundcloud {
