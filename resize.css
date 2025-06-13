@@ -2,18 +2,11 @@
     .screen {
         width: 100% !important;
     }
-    .fa-logo {
-        margin: 20px 30px !important;
-    }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }
 
@@ -21,18 +14,11 @@
     .screen {
         width: 100% !important;
     }
-    .fa-logo {
-        margin: 20px 30px !important;
-    }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }
 
@@ -40,18 +26,17 @@
     .screen {
         width: 100% !important;
     }
+    #fa-wrapper {
+        padding: 0 20px !important;
+    }
     .fa-logo {
-        margin: 20px 30px !important;
+        margin-top: 10px;
     }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }
 
@@ -59,18 +44,11 @@
     .screen {
         width: 100% !important;
     }
-    .fa-logo {
-        margin: 20px 30px !important;
-    }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }
 
@@ -78,18 +56,11 @@
     .screen {
         width: 100% !important;
     }
-    .fa-logo {
-        margin: 20px 30px !important;
-    }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }
 
@@ -98,18 +69,11 @@
     .screen {
         width: 100% !important;
     }
-    .fa-logo {
-        margin: 20px 30px !important;
-    }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }
 
@@ -117,17 +81,10 @@
     .screen {
         width: 100% !important;
     }
-    .fa-logo {
-        margin: 20px 30px !important;
-    }
     .fa-name {
         font-size: 36px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
     .fa-bio {
         font-size: 24px !important;
-        padding-left: 30px !important;
-        padding-right: 30px !important;
     }
 }

@@ -6,40 +6,39 @@ img { max-width: 100%; height: auto; }
 }
 #fa-wrapper {
     margin: auto;
+    padding: 45px;
     display: block;
-    padding: 0px 45px;
     position: relative;
     text-align: center;
     background: rgba(17, 17, 17, 100%);
 }
 .fa-bio-wrapper {
+    gap: 1px;
     color: #FFF;
     width: 100%;
     margin: auto;
-    display: inline-block;
+    display: grid;
+    justify-items: start;
+    justify-content: center;
+    grid-template-columns: 100%;
 }
-    
+
 .fa-logo {
-    float: left;
-    margin: auto;
+    margin-top: 20px;
     display: inline-block;
     border: solid white 1px;
 }
 .fa-name {
-    float: left;
-    clear: both;
     color: #FFF;
     font-size: 24px;
-    margin: 5px 0px;
     font-weight:bold;
     display: inline-block;
 }
 .fa-bio {
     color: #FFF;
     font-size: 18px;
-    margin: 5px 0px;
     line-height: 140%;
-    text-align: justify;
+    text-align: left;
     display: inline-block;
 }
 
