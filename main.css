@@ -25,15 +25,18 @@ img { max-width: 100%; height: auto; }
     width: calc(100% - 200px);
 }
 #fa-wrapper {
+    gap: 4px;
     margin: auto;
-    padding: 45px;
-    display: block;
+    padding: 35px;
+    display: grid;
     position: relative;
     text-align: center;
+    justify-content: center;
+    grid-template-columns: 100%;
     background: rgba(17, 17, 17, 100%);
 }
 .fa-bio-wrapper {
-    gap: 1px;
+    gap: 2px;
     color: #FFF;
     width: 100%;
     margin: auto;
@@ -44,20 +47,18 @@ img { max-width: 100%; height: auto; }
 }
 
 .fa-logo {
-    margin-top: 20px;
-    display: inline-block;
     border: solid white 1px;
 }
 .fa-name {
     color: #FFF;
-    font-size: 24px;
+    font-size: 36px;
+    margin-top: 5px;
     font-weight:bold;
     display: inline-block;
 }
 .fa-bio {
     color: #FFF;
-    font-size: 18px;
-    line-height: 140%;
+    font-size: 24px;
     text-align: left;
     display: inline-block;
 }

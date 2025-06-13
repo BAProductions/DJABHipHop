@@ -27,13 +27,10 @@
         width: 100% !important;
     }
     #fa-wrapper {
-        padding: 0 20px !important;
-    }
-    .fa-logo {
-        margin-top: 10px;
+        padding: 20px !important;
     }
     .fa-name {
-        font-size: 36px !important;
+        font-size: 24px !important;
     }
     .fa-bio {
         font-size: 24px !important;
@@ -43,6 +40,9 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .screen {
         width: 100% !important;
+    }
+    #fa-wrapper {
+        padding: 20px !important;
     }
     .fa-name {
         font-size: 36px !important;
@@ -55,6 +55,9 @@
 @media only screen and (max-width: 767px) {
     .screen {
         width: 100% !important;
+    }
+    #fa-wrapper {
+        padding: 20px !important;
     }
     .fa-name {
         font-size: 36px !important;
@@ -69,8 +72,8 @@
     .screen {
         width: 100% !important;
     }
-    .fa-name {
-        font-size: 36px !important;
+    #fa-wrapper {
+        padding: 20px !important;
     }
     .fa-bio {
         font-size: 24px !important;
@@ -81,10 +84,13 @@
     .screen {
         width: 100% !important;
     }
+    #fa-wrapper {
+        padding: 20px !important;
+    }
     .fa-name {
-        font-size: 36px !important;
+        font-size: 30px !important;
     }
     .fa-bio {
-        font-size: 24px !important;
+        font-size: 18px !important;
     }
 }
