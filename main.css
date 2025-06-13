@@ -1,35 +1,19 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
-   margin: 0;  
-   padding: 0;  
-   border: 0;  
-   font-size: 100%;  
-   font: inherit;  
-   vertical-align: baseline; 
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
-   color-scheme: light dark;
+:root {
+    caret-color: #0073e6;
+    --universal-accent-color: #0073e6;
+    --universal-accent-color-dark: #0049df;
+    --universal-accent-color-light: #4d9dee;
+    --universal-accent-color-text: #fff;
+    --universal-accent-color-text-dark: #fff;
+    --universal-accent-color-text-light: #fff;
 }
 
-html {
-    overflow: hidden auto;
-  	scroll-behavior: smooth;
-    color-scheme: light dark;
-}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+*,
+*::after,
+*::before {box-sizing: border-box;}
 
-body {
-  background-color: #ddd;
-  background-position: center center;
-  background-size: auto;
-  background-repeat: repeat;
-  background-attachment: scroll; 
-  font-family: "San Francisco Display Ultralight";
-  font-weight:bold;
-}  
- 
-@font-face {
-  font-family: "San Francisco Display Ultralight";
-  font-style: bold;
-  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.svg#San Francisco Display Ultralight") format("svg")
-}
+body { background-color: #ddd; font: 14px/1.8 'Open Sans',Helvetica,Arial,sans-serif; color: #666; -webkit-text-size-adjust: 100%; }
+
+body a { color: var(--universal-accent-color); transition: color 250ms linear }
+body a:hover { text-decoration: underline; color: var(--universal-accent-color); }
