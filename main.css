@@ -27,11 +27,11 @@ img { max-width: 100%; height: auto; }
 #fa-wrapper {
     gap: 4px;
     margin: auto;
-    padding: 35px;
     display: grid;
     position: relative;
     text-align: center;
     justify-content: center;
+    padding: 25px 35px 35px 35px;
     grid-template-columns: 100%;
     background: rgba(17, 17, 17, 100%);
 }
